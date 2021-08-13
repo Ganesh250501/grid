@@ -1,0 +1,18 @@
+*{margin: 0; padding: 0;
+box-sizing: border-box;}
+main{
+    width: 75%; margin: 50px auto;
+    border: 1px solid grey;
+    display: grid; color: white;
+    grid-template-rows: 150px 250px 150px;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 20px;
+}
+.div1{ background-color: red;
+    grid-column: 1/-1;
+}
+.div2{ background-color: blue; }
+.div3{ background-color: green; }
+.div4{ background-color: yellow; 
+    grid-column: 1/-1;
+}

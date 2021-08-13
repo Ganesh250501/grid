@@ -1,1 +1,1 @@
-# GRID VIBGYOR
+# GRID
